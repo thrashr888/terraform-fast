@@ -1,4 +1,4 @@
-resource "null_resource" "print_junk_a" {
+resource "null_resource" "print_junk" {
   provisioner "local-exec" {
     command = "find /"
   }
