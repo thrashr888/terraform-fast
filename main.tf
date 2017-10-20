@@ -3,3 +3,4 @@ resource "null_resource" "print_junk" {
     command = "find /tmp/"
   }
 }
+
